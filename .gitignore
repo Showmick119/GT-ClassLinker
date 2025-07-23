@@ -1,0 +1,32 @@
+/frontend/node_modules
+/frontend/node_modules
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.log
+
+# Django
+db.sqlite3
+.env
+*.secret
+local_settings.py
+
+# Migrations (optional, see note below)
+*/migrations/__pycache__/
+# You can ignore migration files during early dev:
+# */migrations/*.py
+# But eventually, you'll want to commit them.
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Python virtual environments
+venv/
+env/
+ENV/
